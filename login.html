@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0;">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- main css file -->
+    <link rel="stylesheet" href="main.css">
+
+
+
+    <title>تسجيل الدخول</title>
+
+</head>
+
+<body>
+    <header id="header" class="d-flex align-items-center">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="logo">
+                <h1><a href="#" class="butto">osama bilal</a></h1>
+            </div>
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a href="home.html" class="butto">Home</a></li>
+                    <li><a href="contact.html" class="butto">Contact</a></li>
+                    <li class="dropdown"><a href="#"><span>Sign in</span><i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <form class="loginform">
+                                <li><label for="email">Email</label></li>
+                                <li><input type="email" name="email" required></li>
+                                <li><label for="password">Password</label></li>
+                                <li><input type="password" name="password" required></li>
+                                <li><button type="submit" class="btn bot">Login</button></li>
+                            </form>
+                        </ul>
+                    </li>
+                    <li><a href="login.html" class="active butto">login site</a></li>
+
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+        </div>
+
+    </header>
+    <div class="container mt-5 pb-5" data-aos="fade-in">
+        <div class="row my-5">
+            <div class="col-md-5 col-7 box offset-3  shadow">
+                <div class="head p-3 text-center mb-3">
+                    <span class="active m-3">Sign Up</span>
+                </div>
+                <form action="home.html" class="login p-3">
+                    <input type="text" placeholder="Frist Name" class="form-control" required>
+                    <input type="text" placeholder="Last Name (optional)" class="form-control">
+                    <input type="email" placeholder="Email" class="form-control" required>
+                    <input type="password" placeholder="Password" class="form-control" required>
+                    <button class="btn bot col-4 offset-4">Login</button>
+                </form>
+                <div class="myfooter">
+                    <p>Forget Password</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="text-center mt-5 border">
+        &copy; الحقوق محفوظة لدى أسامه بلال
+    </footer>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
