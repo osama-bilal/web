@@ -472,7 +472,7 @@ bot('SendMessage',['chat_id'=>$chat_id,
 📛┇مشرف بصلاحيه تثبيت رسائل ✓
 📕┇بواسطة » $info
 ➖ 
-",
+"
 ]);
  bot('promoteChatMember',[
  'chat_id'=>$chat_id,
