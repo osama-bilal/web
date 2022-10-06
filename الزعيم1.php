@@ -401,8 +401,7 @@ bot("SendMessage",[
 if($text == "المميزين" || $text == "قائمه المميزين" and $mmyaz7!= null || $mmyaz7!= ""){
 bot("SendMessage",[
 'chat_id'=>$chat_id,
-'text'=>"🍬¦ اليك المميزين عزيزي"
-$mmyaz7",
+'text'=>"🍬¦ اليك المميزين عزيزي $mmyaz7",
 'parse_mode'=>'MARKDOWN',
     'reply_to_message_id'=>$message->message_id,
   ]);
